@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Memory Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1><center>JOGO DA MEMÓRIA</center></h1>
+    <div class="game">
+        <div class="placar">
+            <h2>Placar:</h2>
+            <p>Jogador 1: <span id="pontos-jogador-1">0</span></p>
+            <p>Jogador 2: <span id="pontos-jogador-2">0</span></p>
+            <p id="vez-jogador">Vez do Jogador 1</p>
+        </div>
+        <center>
+            <table cellspacing="10px" class="tabela">
+                <tr>
+                    <td class="cartas" id="0"></td>
+                    <td class="cartas" id="1"></td>
+                    <td class="cartas" id="2"></td>
+                    <td class="cartas" id="3"></td>
+                    <td class="cartas" id="4"></td>
+                    <td class="cartas" id="5"></td>
+                </tr>
+                <tr>
+                    <td class="cartas" id="6"></td>
+                    <td class="cartas" id="7"></td>
+                    <td class="cartas" id="8"></td>
+                    <td class="cartas" id="9"></td>
+                    <td class="cartas" id="10"></td>
+                    <td class="cartas" id="11"></td>
+                </tr>
+            </table>
+            <button class="botão" onclick="embaralhar()">COMEÇAR JOGO</button>
+        </center>
+    </div>
+    <div class="msg" id="msg"></div>
+    <script src="script.js"></script>
+</body>
+</html>

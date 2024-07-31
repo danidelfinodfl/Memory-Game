@@ -1,0 +1,51 @@
+body {
+    background-image: url("http://cdn.backgroundhost.com/backgrounds/subtlepatterns/retina_wood.png");
+  }
+ 
+.cartas {
+    background-color: darkred;
+    width: 150px;
+    height: 200px;
+    border-radius: 10px; 
+    border: solid 5px #000;
+    cursor: pointer;
+}
+ 
+.botão {
+    border: solid 2px darkred;
+    border-radius: 20px;
+    color: darkred;
+    background-color: white;
+    transition: background-color 0.5s ease, color 0.5s ease, transform 0.5s ease;
+    cursor: pointer;
+    }
+.botão:hover{
+    background-color: darkred;
+    color: white;
+    transform: scale(1.2)
+    }
+.placar {
+    position: absolute;
+    width: 150px;
+    top: 50%;
+    left: 0;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    border: solid #000 ;
+}
+
+.msg {
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    background-color: #fff;
+    border-radius: 10px;
+    border: solid #630000 2px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    font-weight: bold;
+    color: darkred;
+    display: none;
+}
